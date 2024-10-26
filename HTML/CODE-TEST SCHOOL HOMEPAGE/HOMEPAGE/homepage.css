@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/HOMEPAGE/project\ image\ 2.jpeg);
+    background-size: cover;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-position: center;
+    background-attachment: fixed;
+    padding: 100px;
+    text-align: center;
+}
+
+header {
+    background-color: #f0f0f000;
+    padding: 5px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    overflow: hidden;
+    right: 0;
+    position: fixed;
+    top: 0;
+}
+
+nav ul li {
+    margin-left: 100px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #a5a1a1;
+}
+
+
+.hero-content {
+    display: flex;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(190, 75, 212);
+}
+
+p {
+    color: #9e9da0;
+    font-size: 20px;
+    font-weight: 100;
+}
